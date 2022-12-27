@@ -5,13 +5,13 @@
 //НЕЛЬЗЯ ИСПОЛЬЗОВАТЬ Math.Pow
 
 Console.WriteLine("Start");
-int A = 2;
-int B = 4;
- int Power = 1;
+int A = 3;
+int B = 5;
+int Pow = 1;
 for (int i = 1 ; i <= B; i ++)
 {
-    Power = Power * A;
+    Pow = A * Pow;
 }
-Console.WriteLine(Power);
+Console.WriteLine(Pow);
 Console.WriteLine("END");
 
